@@ -1,0 +1,27 @@
+{
+	"name": "bugsnag-plugin-angular",
+	"version": "8.0.0",
+	"description": "Angular integration for bugsnag-js",
+	"main": "./esm/index.js",
+	"browser": "./esm/index.js",
+	"module": "./esm/index.js",
+	"esm": "./esm/index.js",
+	"types": "./esm/index.d.ts",
+	"typings": "./esm/index.d.ts",
+	"homepage": "https://www.bugsnag.com/",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/omishyn/bugsnag-plugin-angular.git"
+	},
+	"author": {
+		"name": "Oleh Mishyn",
+		"email": "mishyn.uk@gmail.com",
+		"url": "https://github.com/omishyn"
+	},
+	"license": "MIT",
+	"bugs": "https://github.com/omishyn/bugsnag-plugin-angular/issues",
+	"peerDependencies": {
+		"@bugsnag/js": "^8.0.0"
+	},
+	"sideEffects": false
+}
