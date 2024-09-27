@@ -38,7 +38,8 @@
 		"build": "npm run clean && npm run build:esnext && cp ./lib/package.json ./dist/bugsnag-plugin-angular && cp ./LICENSE.txt ./dist/bugsnag-plugin-angular && cp ./README.md ./dist/bugsnag-plugin-angular",
 		"build:esnext": "ngc -p tsconfig.esnext.json",
 		"test:types": "npm run build",
-		"deploy": "deploy-to-git"
+		"deploy": "deploy-to-git",
+		"publish": "npm run build && npm publish ./dist/bugsnag-plugin-angular"
 	},
 	"author": {
 		"name": "Oleh Mishyn",
